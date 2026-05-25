@@ -36,7 +36,7 @@ PROCEDURE
 PROGRAM:
 ```
 t=0:0.01:2*3.14;
-x=(sin(3*t)+cos(3*t));
+x=(sin(7*t)+cos(7*t));
 subplot(3,2,1);
 plot(x);
 au=xcorr(x,x);
@@ -55,7 +55,8 @@ plot(fw2);
 
 OUTPUT:
 
-<img width="760" height="700" alt="image" src="https://github.com/user-attachments/assets/fe1cd553-b53b-4c2f-9374-ec20ed0f4f91" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/31844482-919c-434e-aecc-d825236975b5" />
+
 
 RESULT:
 
